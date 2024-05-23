@@ -20,6 +20,10 @@ print(
 player = int(input('Please choose a number above: '))
 computer = random.randint(1, 5)
 
+# invalid input numbers
+if player != 1 and player != 2 and player != 3 and player != 4 and player != 5:
+  print("Please choose a valid number. ( ｡ •`ᴖ´• ｡)")
+
 # time to battle!
 # rock interactions
 if player == 1 and computer == 1:
@@ -80,7 +84,3 @@ elif player == 5 and computer == 4:
   print("You chose: 🤓🖖 \nCPU chose: 🦎🐱 \nLizard Cat poisons Young Sheldon Spock. The computer won! ಠ_ಠ Bazinga!")
 elif player == 5 and computer == 5:
   print("You chose: 🤓🖖 \nCPU chose: 🤓🖖 \nYoung Sheldon Spock squared. It's a tie. (⇀‸↼)")
-
-# invalid input numbers
-if player != 1 and player != 2 and player != 3 and player != 4 and player != 5:
-  print("Please choose a valid number. ( ｡ •`ᴖ´• ｡)")
