@@ -91,7 +91,7 @@ while True:
   if rematch != 'y':
     print('Thank you for playing! (*ˊᗜˋ*)/')
     break
-  if rematch == 'y':
+  else:
     print('Starting a rematch... (｡•̯̀ v •̯̀｡)')
     print(
       """⋆ ˚｡ ⋆ ˚｡ ⋆✊ ✋ ✌ 🦎 🖖⋆ ｡˚ ⋆ ｡˚ ⋆\n
