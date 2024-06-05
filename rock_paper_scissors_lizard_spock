@@ -94,16 +94,17 @@ while True:
   else:
     print('Starting a rematch... (｡•̯̀ v •̯̀｡)')
     print(
-      """⋆ ˚｡ ⋆ ˚｡ ⋆✊ ✋ ✌ 🦎 🖖⋆ ｡˚ ⋆ ｡˚ ⋆\n
-      Rock Paper Scissors Lizard Spock\n
-      ⋆ ˚｡ ⋆ ˚｡ ⋆✊ ✋ ✌ 🦎 🖖⋆ ｡˚ ⋆ ｡˚ ⋆\n
-      1. ✊ Rock\n
-      2. ✋ Paper\n
-      3. ✌  Scissors\n
-      4. 🦎🐱 Lizard Cat\n
-      5. 🤓🖖 Young Sheldon Spock
-      
-      """)
+"""⋆ ˚｡ ⋆ ˚｡ ⋆✊ ✋ ✌ 🦎 🖖⋆ ｡˚ ⋆ ｡˚ ⋆\n
+ Rock Paper Scissors Lizard Spock\n
+⋆ ˚｡ ⋆ ˚｡ ⋆✊ ✋ ✌ 🦎 🖖⋆ ｡˚ ⋆ ｡˚ ⋆\n
+1. ✊ Rock\n
+2. ✋ Paper\n
+3. ✌  Scissors\n
+4. 🦎🐱 Lizard Cat\n
+5. 🤓🖖 Young Sheldon Spock
+
+"""
+      )
       
     player = int(input('Please choose a number above: '))
     computer = random.randint(1, 5)
