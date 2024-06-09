@@ -17,7 +17,7 @@ print(
 # 5. I started watching Young Sheldon with my boyfriend in December 2023, and "erm ackshually ☝️🤓" I quite liked it
 
 # variables
-player = int(input('Please choose a number above: '))
+player = int(input("Please choose a number above: "))
 computer = random.randint(1, 5)
 
 # invalid input numbers
@@ -87,12 +87,12 @@ elif player == 5 and computer == 5:
 
 # loop
 while True:
-  rematch = input('Would you like a rematch? [y/n] ( ◡̀_◡́)ᕤ ')
+  rematch = input("Would you like a rematch? [y/n] ( ◡̀_◡́)ᕤ ")
   if rematch != 'y':
-    print('Thank you for playing! (*ˊᗜˋ*)/')
+    print("Thank you for playing! (*ˊᗜˋ*)/")
     break
   else:
-    print('Starting a rematch... (｡•̯̀ v •̯̀｡)')
+    print("Starting a rematch... (｡•̯̀ v •̯̀｡)")
     print(
 """⋆ ˚｡ ⋆ ˚｡ ⋆✊ ✋ ✌ 🦎 🖖⋆ ｡˚ ⋆ ｡˚ ⋆\n
  Rock Paper Scissors Lizard Spock\n
@@ -106,7 +106,7 @@ while True:
 """
       )
       
-    player = int(input('Please choose a number above: '))
+    player = int(input("Please choose a number above: "))
     computer = random.randint(1, 5)
       
     if player != 1 and player != 2 and player != 3 and player != 4 and player != 5:
