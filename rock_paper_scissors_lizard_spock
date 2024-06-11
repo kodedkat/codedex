@@ -88,10 +88,7 @@ elif player == 5 and computer == 5:
 # loop
 while True:
   rematch = input("Would you like a rematch? [y/n] ( ◡̀_◡́)ᕤ ")
-  if rematch != 'y':
-    print("Thank you for playing! (*ˊᗜˋ*)/")
-    break
-  else:
+  if rematch == 'y' or rematch == 'Y':
     print("Starting a rematch... (｡•̯̀ v •̯̀｡)")
     print(
 """⋆ ˚｡ ⋆ ˚｡ ⋆✊ ✋ ✌ 🦎 🖖⋆ ｡˚ ⋆ ｡˚ ⋆\n
@@ -166,3 +163,6 @@ while True:
       print("You chose: 🤓🖖 \nCPU chose: 🦎🐱 \nLizard Cat poisons Young Sheldon Spock. The computer won! ಠ_ಠ Bazinga!")
     elif player == 5 and computer == 5:
       print("You chose: 🤓🖖 \nCPU chose: 🤓🖖 \nYoung Sheldon Spock squared. It's a tie. (⇀‸↼)")
+  else:
+    print("Thank you for playing! (*ˊᗜˋ*)/")
+    break
